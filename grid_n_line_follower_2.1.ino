@@ -96,6 +96,10 @@ void loop() {
     //IT will first turn right
     if(count == 0){
       right();
+    }
+    
+    if(count == 1){
+      left();
     }    
   }  
   
